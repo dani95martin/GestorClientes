@@ -1,0 +1,123 @@
+.modal{
+    width: max-content;
+    height: max-content;
+    overflow: hidden;
+    margin: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    border-radius: 5px;
+    background-color: rgba(255, 255,255, 0.6);
+    z-index: -100;
+    box-shadow: 0 0 15px #ddd;
+}
+
+.fondo{
+    width:220px;
+    margin: 0 auto;
+    margin-right: 40px;
+}
+
+.icono{
+    margin-left: 10px;
+}
+
+#generarpass{
+  margin-top: 10px;
+  margin-bottom: -12px;
+}
+.logo{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.logo-empresa{
+    margin-bottom: 20px;
+}
+.imagencliente{
+  margin-bottom: 15px;
+}
+.enviar{
+  margin-top: 1px;
+  width: 100%;
+}
+.formularios{
+
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  color: black;
+}
+.formularios2{
+  margin: 5%;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 5px;
+  color: black;
+}
+.negrita{
+  font-weight: 700;
+}
+
+.textoimportante{
+  font-weight: 700;
+  color: black;
+}
+
+@media screen and (max-width: 680px) {
+    .fondo{
+        width: 240px;
+    }
+    .titulos{
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+    .titulos2{
+      background-color: rgba(255, 255, 255, 0.6);
+      padding-top: 30px;
+      border-radius: 5px;
+    }
+    .formularios{
+      padding: 5%;
+      background-color: rgba(255, 255, 255, 0.6);
+      border-radius: 5px;
+    }
+    .fondocasa{
+      background-color: white;
+      background: none;
+    }
+
+    #btn-anadircliente{
+      background-color: black;
+      color: white;
+      border: 0;
+    }
+    #btn-anadircliente:hover{
+      background-color:#282828;
+      color: white;
+      border: 0;
+    }
+}
+
+@media screen and (max-width:480px){
+  .fondocasa{
+    background:none!important;
+  }
+  .modal{
+    box-shadow: 0 0 15px #ddd;
+    border-radius: 5px;
+    background-color: rgba(255, 255,255, 0.6);
+  }
+}
+
+
+.fondocasa{
+  background-image: url(../imagenes/fondologin.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.fondoclientes{
+  background-image: url(../imagenes/icono2.png);
+  background-repeat: no-repeat;
+  background-position: cover;
+}
+.center_div{
+    margin: 0 auto;
+    width:80% /* value of your choice which suits your alignment */
+}

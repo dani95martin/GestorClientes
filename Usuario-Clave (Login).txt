@@ -1,0 +1,4 @@
+Primero instalar la BBDD. El archivo SQL esta en la carpeta "bd"
+
+admin -> admin (cuenta con roles de administrador)
+daniusuario -> daniusuario (cuenta con roles de usuario normal)
